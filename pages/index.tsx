@@ -8,17 +8,19 @@ type Props = {
 
 export default function Home({ data }: Props) {
   return (
-    <>
-      {data.operatingSystem === 'Windows' ? (
-        <Image src='/windows.svg' alt='windows' width={100} height={100} />
-      ) : data.operatingSystem === 'Linux' ? (
-        <Image src='/linux.svg' alt='linux' width={100} height={100} />
-      ) : data.operatingSystem === 'MacOS' ? (
-        <Image src='/macos.svg' alt='macos' width={100} height={100} />
-      ) : (
-        <Image src='/unknown.svg' alt='unknown' width={100} height={100} />
-      )}
-      <ul>
+    <main>
+      <div className='icon'>
+        {data.operatingSystem === 'Windows' ? (
+          <Image src='/windows.svg' alt='windows' width={100} height={100} />
+        ) : data.operatingSystem === 'Linux' ? (
+          <Image src='/linux.svg' alt='linux' width={100} height={100} />
+        ) : data.operatingSystem === 'MacOS' ? (
+          <Image src='/macos.svg' alt='macos' width={100} height={100} />
+        ) : (
+          <Image src='/unknown.svg' alt='unknown' width={100} height={100} />
+        )}
+      </div>
+      <ul className='info'>
         <li>
           <span className='title'>OS</span>
           <span className='colon'>:</span>
@@ -65,7 +67,7 @@ export default function Home({ data }: Props) {
           <span className='value'>{data.hostname}</span>
         </li>
       </ul>
-    </>
+    </main>
   )
 }
 
