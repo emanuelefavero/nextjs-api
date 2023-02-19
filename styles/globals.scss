@@ -58,6 +58,7 @@ body {
 main {
   /* max-width: 800px; */
   width: 100%;
+  flex-wrap: wrap;
   /* height: 100%; */
   /* overflow: auto; */
   display: flex;
@@ -139,6 +140,7 @@ p {
 /* SPECIFIC STYLING */
 .info {
   margin-left: 1.5rem;
+  margin-top: 1rem;
 
   li {
     margin-bottom: 0.3rem;
@@ -188,3 +190,18 @@ main {
     color-scheme: dark;
   }
 } */
+
+@media screen and (max-width: 550px) {
+  main {
+    flex-direction: column;
+
+    .icon {
+      transform: rotateY(0deg);
+      animation: none;
+
+      position: relative;
+      left: 1.5rem;
+      margin-bottom: 2.25rem;
+    }
+  }
+}
