@@ -1,10 +1,8 @@
 # Next.js API
 
-This is a Next.js project example that shows how to use the [Next.js API routes](https://nextjs.org/docs/api-routes/introduction)
+This is a Next.js project similar to the famous [neofetch](https://github.com/dylanaraps/neofetch) terminal tool but it shows the data from the server instead of the client. IT shows how to use the [Next.js API routes](https://nextjs.org/docs/api-routes/introduction)
 
-- The application is similar to the famous neofetch terminal tool but it shows the data from the server instead of the client
-
-In this example, we mainly use the Node.js OS module to get the data from the server. We then pass that data to the client-side using the Next.js API routes and `getServerSideProps` method
+- We mainly use the Node.js OS module to get the data from the server. We then pass that data to the client-side using the Next.js API routes and `getServerSideProps` method
 
 > Note: You can also use the `getStaticProps` method to get the data from the server but I decided to use the `getServerSideProps` method because I added a little bit of dynamic data
 
