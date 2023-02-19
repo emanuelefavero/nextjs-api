@@ -134,13 +134,21 @@ p {
 
 /* SPECIFIC STYLING */
 .info {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 
   li {
     margin-bottom: 0.3rem;
 
     .title {
       font-weight: 600;
+    }
+
+    .colon {
+      margin-right: 0.5rem;
+    }
+
+    .value {
+      font-weight: 400;
     }
   }
 }
