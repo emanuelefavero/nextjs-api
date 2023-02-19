@@ -39,6 +39,7 @@ body {
   background-color: var(--color-background);
   color: #fff;
 
+  padding: 1rem;
   min-height: 100vh;
 
   display: flex;
@@ -129,6 +130,15 @@ button:hover {
 
 p {
   color: var(--color-p);
+}
+
+/* SPECIFIC STYLING */
+li {
+  margin-bottom: 0.3rem;
+}
+
+.info {
+  margin-left: 1rem;
 }
 
 /* DARK MODE */
