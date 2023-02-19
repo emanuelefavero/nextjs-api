@@ -10,6 +10,10 @@ This is a Next.js project similar to the famous [neofetch](https://github.com/dy
 
 - [https://nextjs-neofetch.vercel.app/](https://nextjs-neofetch.vercel.app/)
 
+#### Screenshot
+
+<img src="screenshot.png" alt="screenshot" width="600">
+
 ## Getting Started
 
 - clone the repo and `cd` into the directory
