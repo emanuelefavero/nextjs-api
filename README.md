@@ -6,6 +6,10 @@ This is a Next.js project similar to the famous [neofetch](https://github.com/dy
 
 > Note: You can also use the `getStaticProps` method to get the data from the server but I decided to use the `getServerSideProps` method because I added a little bit of dynamic data
 
+## Live Demo
+
+- [https://nextjs-neofetch.vercel.app/](https://nextjs-neofetch.vercel.app/)
+
 ## Getting Started
 
 - clone the repo and `cd` into the directory
