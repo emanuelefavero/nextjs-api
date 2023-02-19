@@ -145,14 +145,17 @@ p {
 
     .title {
       font-weight: 600;
+      color: var(--color-secondary);
     }
 
     .colon {
       margin-right: 0.5rem;
+      color: var(--color-primary);
     }
 
     .value {
       font-weight: 400;
+      color: var(--color-p);
     }
   }
 }
