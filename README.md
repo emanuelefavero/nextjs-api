@@ -27,3 +27,7 @@ This is a Next.js project similar to the famous [neofetch](https://github.com/dy
 
 - [Next.js API Routes](https://nextjs.org/docs/api-routes/dynamic-api-routes)
 - [Node.js OS Module](https://nodejs.org/api/os.html)
+
+## License
+
+- [MIT](LICENSE.md)
